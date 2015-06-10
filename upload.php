@@ -188,7 +188,7 @@ function uploadScreen(){
     $html .="</div>";
     return $html;
 }
-add_shortcode("swip_upload_button", "uploadScreen");  
+add_shortcode("upload_button", "uploadScreen");  
 
 function uploadFiles(){
 
